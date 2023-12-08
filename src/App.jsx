@@ -4,7 +4,7 @@ import Chat from "./components/Chat";
 import { useEffect, useState } from "react";
 import io from "socket.io-client";
 
-const socket = io.connect("http://88.228.225.116");
+const socket = io.connect("");
 
 function App() {
   const [userName, setUserName] = useState("");
